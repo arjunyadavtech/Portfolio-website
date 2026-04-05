@@ -1,30 +1,74 @@
-# 🚀 Arjun Yadav Portfolio
+# 🚀 Arjun Yadav — Portfolio
 
-A modern, responsive portfolio website showcasing my projects, skills, and work.
+A modern, responsive portfolio showcasing my projects, skills, and engineering work.
 
-<p>
+---
+
+## 🌐 Live Demo
+
+<p align="center">
   <a href="https://arjun-yadav-engineer.vercel.app/" target="_blank">
-    🔗 Live Demo
+    <img src="https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
-## 📌 Features
-- Clean and modern UI
-- Fully responsive design
-- Project showcase with live links
-- Smooth navigation
+---
+
+## ✨ Overview
+
+This portfolio represents my work as a frontend developer, focusing on building clean, responsive, and user-friendly web applications. It highlights my ability to design intuitive interfaces and deliver real-world projects.
+
+---
+
+## ⚡ Features
+
+* Clean and modern UI/UX
+* Fully responsive across devices
+* Interactive project showcase
+* Smooth navigation and layout
+* Optimized performance
+
+---
 
 ## 🛠 Tech Stack
-- React.js
-- Vite
-- Tailwind CSS
 
-## 📂 Projects Included
-- Netflix UI Clone
-- Todo App
-- Credit Card AI Advisor
+* **Frontend:** React.js, Vite
+* **Styling:** Tailwind CSS
+* **Deployment:** Vercel
 
-## ⚡ Installation
+---
+
+## 📂 Projects Highlight
+
+* 🎬 Netflix UI Clone
+* ✅ Todo App
+* 💳 Credit Card AI Advisor
+
+---
+
+## 📸 Preview
+
+![Portfolio Preview](./preview.png)
+
+---
+
+## ⚙️ Installation & Setup
+
 ```bash
+git clone https://github.com/arjunyadavtech/Portfolio-website.git
+cd Portfolio-website
 npm install
 npm run dev
+```
+
+---
+
+## 📬 Contact
+
+* GitHub: https://github.com/arjunyadavtech
+
+---
+
+## ⭐ Show your support
+
+If you like this project, consider giving it a ⭐ on GitHub!
