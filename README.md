@@ -2,10 +2,11 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and work.
 
+<p>
   <a href="https://your-vercel-link.vercel.app/" target="_blank">
     🔗 Live Demo
   </a>
-</p>[https://your-vercel-link.vercel.app/](https://arjun-yadav-engineer.vercel.app/)
+</p>
 
 ## 📌 Features
 - Clean and modern UI
