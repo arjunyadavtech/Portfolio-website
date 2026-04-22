@@ -46,7 +46,7 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <h1 className="text-xl font-bold tracking-wide cursor-pointer hover:text-blue-400 transition">
+      <h1 className="text-xl text-white font-bold tracking-wide cursor-pointer hover:text-blue-400 transition">
         Arjun.dev
       </h1>
 
