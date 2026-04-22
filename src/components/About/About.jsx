@@ -1,48 +1,75 @@
-const About = () => {
+export default function About() {
   return (
-    <section
-      id="about"
-      className="min-h-screen bg-black text-white px-6 py-20 flex items-center"
-    >
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        
-        {/* LEFT SIDE */}
-        <div className="space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            About Me
-          </h2>
-
-          <p className="text-gray-400 mb-4">
-            I turn ideas into real-world web applications that are fast, responsive, and user-focused.
+    <section className="py-20 px-6 md:px-20 bg-[#0f172a] text-white">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        {/* LEFT MINIMAL */}
+        <div>
+          <p className="text-sm text-blue-400 font-medium mb-2">
+            Frontend Developer • React • UI/UX Focused
           </p>
 
-          <p className="text-gray-400 mb-4">
-           I specialize in React and modern frontend tools, turning ideas into functional products with clean UI and solid performance.
-          </p>
+          <h2 className="text-4xl font-bold mb-4">About Me</h2>
 
-          <p className="text-gray-400">
-          Currently, I’m actively building projects and improving my full-stack skills to become a complete developer.
+          <p className="text-gray-300 mt-4 max-w-md">
+            I focus on turning ideas into clean, performant, and user-friendly
+            interfaces.
           </p>
         </div>
 
-        {/* RIGHT SIDE */}
-        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
-          <h3 className="text-2xl font-semibold mb-4">
-            Skills
-          </h3>
+        {/* RIGHT FULL STORY CARD */}
+        <div
+          className="bg-[#020617] border border-gray-800 rounded-2xl p-6 font-mono text-sm shadow-xl 
+                        hover:scale-[1.02] transition duration-300"
+        >
+          <p className="text-green-400 mb-3">// My Story</p>
 
-          <div className="flex flex-wrap gap-3">
-            <span className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-500/20 hover:text-blue-400 transition cursor-default">React</span>
-            <span className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-500/20 hover:text-blue-400 transition cursor-default">JavaScript</span>
-            <span className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-500/20 hover:text-blue-400 transition cursor-default">Tailwind</span>
-            <span className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-500/20 hover:text-blue-400 transition cursor-default">HTML</span>
-            <span className="bg-gray-800 px-4 py-2 rounded-lg hover:bg-blue-500/20 hover:text-blue-400 transition cursor-default">CSS</span>
-          </div>
+          <p className="text-blue-400">const developer = {"{"}</p>
+
+          <p className="ml-4">
+            <span className="text-purple-400">journey</span>:
+            <span className="text-yellow-300">
+              {" "}
+              "Explored multiple domains → found passion in building real
+              products"
+            </span>
+            ,
+          </p>
+
+          <p className="ml-4">
+            <span className="text-purple-400">currentFocus</span>:
+            <span className="text-yellow-300">
+              {" "}
+              "React, UI/UX, scalable frontend systems"
+            </span>
+            ,
+          </p>
+
+          <p className="ml-4">
+            <span className="text-purple-400">skills</span>:
+            <span className="text-yellow-300"> ["React", "MERN", "AWS"]</span>,
+          </p>
+
+          <p className="ml-4">
+            <span className="text-purple-400">goal</span>:
+            <span className="text-yellow-300">
+              {" "}
+              "Build impactful, scalable digital products end-to-end"
+            </span>
+            ,
+          </p>
+
+          <p className="ml-4">
+            <span className="text-purple-400">status</span>:
+            <span className="text-yellow-300">
+              {" "}
+              "Building consistently & improving every day"
+            </span>
+            ,
+          </p>
+
+          <p className="text-blue-400">{"}"}</p>
         </div>
-
       </div>
     </section>
   );
-};
-
-export default About;
+}

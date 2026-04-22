@@ -1,6 +1,7 @@
 import NetflixCloneImg from "../../assets/Netflix-clone.png";
 import CreditCardAiAdvisorZoomImg from "../../assets/CreditCardAiAdvisorZoom.png";
 import TodoApp from "../../assets/TodoApp.png";
+import ResumeAnalyzer from "../../assets/ResumeAnalyzer1.png";
 
 const projects = [
   {
@@ -32,17 +33,39 @@ const projects = [
     image: CreditCardAiAdvisorZoomImg,
   },
   {
-    title: "TO DO App",
+    title: "Resume Analyzer",
     description:
-      "Developed a React Todo App with dynamic state handling and responsive UI, showcasing core frontend skills in component design, user interaction, and state management.",
-    highlight: "Real-time task management with dynamic state updates",
+      "Built an AI-powered resume analysis platform that evaluates resumes against job descriptions using ATS-like logic. The system parses PDF/DOCX files, extracts skills, computes a match score, and generates actionable improvement suggestions using Google Gemini.",
+    highlight: "ATS-style scoring + AI-driven resume improvement suggestions",
     impact:
-      "Improves productivity by enabling efficient real-time task tracking and updates.",
-    tech: ["JavaScript", "React", "CSS"],
-    github: "https://github.com/arjunyadavtech/react-todo-app",
-    live: "https://todo-app-azure-nu-58.vercel.app/",
-    image: TodoApp,
+      "Helps job seekers identify skill gaps, optimize resumes for ATS systems, and improve interview selection chances through data-driven feedback.",
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Google Gemini API",
+      "pdf2json",
+      "mammoth",
+      "Prisma",
+    ],
+    github: "https://github.com/arjunyadavtech/ai-resume-analyzer",
+    live: "https://ai-resume-analyzer-coral-omega.vercel.app/",
+    image: ResumeAnalyzer,
   },
+
+  // {
+  //   title: "TO DO App",
+  //   description:
+  //     "Developed a React Todo App with dynamic state handling and responsive UI, showcasing core frontend skills in component design, user interaction, and state management.",
+  //   highlight: "Real-time task management with dynamic state updates",
+  //   impact:
+  //     "Improves productivity by enabling efficient real-time task tracking and updates.",
+  //   tech: ["JavaScript", "React", "CSS"],
+  //   github: "https://github.com/arjunyadavtech/react-todo-app",
+  //   live: "https://todo-app-azure-nu-58.vercel.app/",
+  //   image: TodoApp,
+  // },
 ];
 
 const Projects = () => {
