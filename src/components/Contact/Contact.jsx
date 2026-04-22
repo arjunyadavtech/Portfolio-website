@@ -103,7 +103,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="relative py-20 px-6 md:px-16 bg-[#0a0a0a] text-white">
+    <section id="contact" className="relative py-20 px-6 md:px-16 bg-[#0a0a0a] text-white">
       {/* Glow Background */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-blue-500/20 blur-[120px] rounded-full"></div>
 
@@ -121,7 +121,7 @@ export default function ContactSection() {
 
           {/* 24h Badge */}
           <div className="mt-6 inline-block px-4 py-2 rounded-full bg-green-500/10 border border-green-400/20 text-green-400 text-sm">
-            ⚡ Responds within 24 hours
+            ⚡ Responds within 24 hours3
           </div>
 
           {/* Direct Contact */}
